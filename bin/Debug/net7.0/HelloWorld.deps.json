@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HelloWorld/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.0.0",
+          "LINQtoCSV": "1.5.0"
+        },
+        "runtime": {
+          "HelloWorld.dll": {}
+        }
+      },
+      "CsvHelper/30.0.0": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.0.0"
+          }
+        }
+      },
+      "LINQtoCSV/1.5.0": {
+        "runtime": {
+          "lib/net35/LINQtoCSV.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorld/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/30.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0VXyouC1g43bXtEJRReJfB5C3RwxZOUSk9FnNv8/47PptzrVYKrEi/H3PP14+MvP+mLCnDiAtOXbIwvnEMSPxw==",
+      "path": "csvhelper/30.0.0",
+      "hashPath": "csvhelper.30.0.0.nupkg.sha512"
+    },
+    "LINQtoCSV/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R3FWKGV326oWhEIJFgBQvJyeEs7ylViAMjTYs1YetwVdGfbDGf465xfLaxUxePwF/8Tcajt/1Llj3exhYL2xhQ==",
+      "path": "linqtocsv/1.5.0",
+      "hashPath": "linqtocsv.1.5.0.nupkg.sha512"
+    }
+  }
+}
